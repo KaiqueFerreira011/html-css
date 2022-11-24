@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRATICANDO</title>
+    <style>body {background-color: azure;}</style>
+    <style>mark {
+        background: chocolate;
+        color: rgb(82, 79, 79);
+    }
+ </style>
+</head>
+<body>
+    <H1>Praticando o exercício da aula passada</H1>
+    <h2>Negrito / Destaque </h2>
+    <hr>
+
+    <p>Nesta frase, temos um <b>termo em negrito</b> usando a tag B.   (não semantica)</p>
+    <p>Nesta frase, temos um <strong>termo em destaque</strong> usando a tag STRONG. (semantica)</p>
+
+    <h2>Itálico / Ênfase</h2>
+
+<p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semantica).</p>
+<p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semantica).</p>
+
+<h2>Texto Marcado</h2>
+<p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK.</p>
+<p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final.</p>
+
+<h2>Texto grande e pequeno</h2>
+<p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p>
+
+<h2>Texto deletado</h2>
+<p>Podemos marcar <del>um texto como excluido</del> para indicar que ele deve ser lido mas não considerado</p>
+
+<h2>Texto Inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase para indicar que ele foi adicionado depois</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U (não semantica) </p>
+
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas tipo x<sup>20</sup>+3</p>
+
+    <h2>Texto Subscrito</h2>
+    <p>Para inserir coisas tipo H<sub>2</sub>O</p>
+
+    <H1>Outras formatações</H1>
+    <h2>Código-Fonte / Pré-Formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <p><pre>
+        <code>
+            num = Int(input('digite um número'))
+                If num % 2 == 0:
+                print (F'O número {num} é PAR') I
+                else:
+                print(f' O número {num} é IMPAR')
+                print('Fim do programa') <!--'code' para ler em formato de código e 'pre' para arrumá-lo -->
+        </code>
+    </pre></p>
+        <h2>Citação Simples</h2>
+        <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+
+        <h2>Citações Completas</h2>
+        <p>Segundo Maurício Samy Silva, no seu livro Fundamentos de HTML5 e CSS3:</p> 
+        <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">HTML é a sigla para <q>HyperText Markup Language, que, em português, significa linguagem para marcação de hipertexto.</q></blockquote>
+
+
+        <h2>Abreviações</h2>
+            <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, Estou adorando.</p>
+            <h2>Texto Invertido</h2>
+            <bdo dir="rtl">Estou aprendendo HTML e CSS</bdo>\
+
+        <h1>Trabalhando com Lista</h1>
+        <h2>Listas Ordenadas</h2>
+        <ol type="i">
+            <li>Acordar</li>
+            <li>Ligar para o João</li>
+            <li>Tomar Café</li>
+            <li>Escovar os dentes</li>
+            <li>Ir para a faculdade</li>
+        </ol>
+        <h2>Listas não ordenadas</h2>
+        <ul type="circle">
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Manteiga</li>
+            <li>Alface</li>
+        </ul>
+ <h2>Minhas linguagens Favoritas</h2>
+ <ol type="1">
+    <li>Antigas</li>
+    <ol type="a">
+        <li>Clipper</li>
+        <li>Visual Basic</li>
+        <li>Fortran</li>
+        <li>Delphi</li>
+    </ol>
+    <li>Novas</li>
+    <ol type="a">
+        <li>PHP</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Kotlin</li>
+    </ol>
+ </ol>
+    <h2>Meus jogos Favoritos</h2>
+    <ol type="1">
+        <li>NEN</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li> 
+        </ul>
+        <li>SNEN</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>FinalFantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+   <h2>Lista de Definições</h2>
+   <dt>HTML</dt>
+   <dd>Linguagem de marcação para a criação de conteúdo de um site.</dd>
+   <dt>CSS</dt>
+   <dd>Linguagem de marcação para a criação do design de um site.</dd>
+   <dt>JavaScript</dt>
+   <dd>Linguagem de Programação para a criação de interatividade de um site.</dd>
+   
+   <h1>Trabalhando com links externos</h1>
+   <p><a href="https://github.com/gustavoguanabara" target="_blank" rel="external">repositório público gustavo guanabara</a></p>
+   <p><a href="https://twitter.com/home" target="_blank" rel="external">home do twitter</a></p>
+
+   <h2>Usando link interno</h2>
+   <p>Esta é a primeira página do site. se você quiser, pode acessar a <a href="pag002.html" target="_self" rel="next">minha segunda página</a></p>
+   <p>você também pode acessar a nossa <a href="noticias/pag003.html" target="_self">página de notícias</a></p>
+</body>
+</html>

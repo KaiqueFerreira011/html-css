@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'Love';
+    src: url(fontes/love\ larry.ttf.ttf);
+    font-weight: normal; 
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+h1{
+    font-family: 'love', cursive;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
+}
