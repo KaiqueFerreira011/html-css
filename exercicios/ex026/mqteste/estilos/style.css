@@ -7,6 +7,7 @@
     font-size: 1em;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -24,7 +25,6 @@ body {
 main {
     background-color: rgba(255, 255, 255, 0.671);
     width: 400px;
-    display: block;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
@@ -43,6 +43,7 @@ img {
     margin: auto;
 }
 
+img#phone { display: block; }
 img#tablet { display: none; }
 img#print { display: none; }
 img#pc { display: none; }
