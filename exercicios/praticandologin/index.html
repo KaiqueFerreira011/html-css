@@ -13,31 +13,32 @@
 
 <body>
     <main>
-        <section class="login">
-            <div class="imagem">
+        <section id="login">
+            <div id="imagem">
 
             </div>
-            <div class="formulario">
+            <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                <form action="login.php" method="post" autocomplete="on">
+
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="email" id="iemail" placeholder="seu email" required maxlength="30" autocomplete="email">
+                        <label for="iemail">Login</label>
+                    </div>
+
+                    <div class="campo">
+                        <span class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="senha" id="isenha" required placeholder="sua senha" minlength="8" maxlength="20" autocomplete="current-password">
+                        <label for="isenha">senha</label>
+                    </div>
+
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html">
+                        Esqueci a senha <span class="material-symbols-outlined">mail<span></span>
+                </form>
             </div>
-
-            <form action="" method="post">
-                <div class="campo">
-                    <span class="material-symbols-outlined">person</span>
-                    <input type="email" name="email" id="iemail" placeholder="seu email" required maxlength="30">
-                    <label for="iemail">email</label>
-                </div>
-
-                <div class="campo">
-                    <span class="material-symbols-outlined">vpn_key</span>
-                    <input type="password" name="senha" id="isenha" required placeholder="sua senha" minlength="8" maxlength="20">
-                    <label for="isenha">senha</label>
-                </div>
-
-                <input type="submit" value="enviar">
-                <a href="enviar.html">esqueci minha senha <span class="material-symbols-outlined">mail</span></a>
-            </form>
         </section>
     </main>
 </body>
