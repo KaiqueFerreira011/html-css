@@ -70,14 +70,38 @@ div#formulario > p {
 form .campo {
     display: block;
     background-color: #5f2c82;
-    border-radius: 5px;
+    border: 2px solid #5f2c82;
+    border-radius: 8px;
     width: 100%;
     height: 40px;
     margin: 5px 0px;
 }
 
+
 form .campo label {
     display: none;
+}
+
+.campo span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo input {
+    background-color: #63ddd9;
+    font-size: 1em;
+    border: none;
+    border-radius: 7px;
+    padding: 4px;
+    width: calc(100% - 55px);
+    height: 100%;
+    transform: translateY(-12px);
+}
+
+.campo input:focus-within {
+    background-color: white;
 }
 
 form input[type=submit] {
@@ -101,7 +125,7 @@ form .botao {
     width: 100%;
     height: 40px;
     border: 1px solid #49a09d;
-    border-radius: 5px;
+    border-radius: 7px;
     padding-top: 5px;
     margin-top: 5px;
     text-align: center;
