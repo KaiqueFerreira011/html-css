@@ -29,6 +29,18 @@
         float: right;
         width: 70%;
     }
+
+    form div.campo input {
+        background-color: #80ebe7;
+        font-size: 1em;
+        height: 100%;
+        padding: 4px;
+        width: calc(100% - 44px);
+        border: 0;
+        border-radius: 8px;
+    
+        transform: translateY(-12px);
+    }
 }
 
 @media screen and (min-width: 992px) {
