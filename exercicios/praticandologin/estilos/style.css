@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 main {
@@ -13,30 +16,89 @@ main {
     align-items: center;
 }
 
+.left-login h1 {
+    color: #77ffc0;
+    font-size: 3vw;
+}
+
 .left-login {
-   width: 50vw;
-   height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-login {
     width: 50vw;
-    height: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login {
+    background-color: #2D263E;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.507);
+    padding: 35px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.card-login {
-    background-color: #2D263E;
-    width: 250px;
-    height: 50vw;
+.card-login h1 {
+    color: #00FF88;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+    margin: 10px 0px;
+}
+
+.textfield input {
+    width: 100%;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.507);
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 10px;
+}
+
+.textfield label {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.textfield input::placeholder {
+    color: rgba(255, 255, 255, 0.637);
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background-color: #00ff88;
+    cursor: pointer;
 }
